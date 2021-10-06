@@ -10,17 +10,12 @@ body {
     color: rgb(24, 24, 24);
     
   } 
-  .head-text {
-    
-    
-    
-  }
 
   .btn-dark {
     background-color: #ec1cff;
   }
 
-  .h2-pink{
+  .h2-pink {
     color: #ec1cff;
   }
   .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
@@ -32,7 +27,6 @@ body {
     margin-left: -2em;
     margin-top: -1.6em;
     margin-right: -2em;
-    
     padding-left: 3em;
     padding-right: 3em;
 }
@@ -58,12 +52,9 @@ body {
     margin-left: -15%;
 }
 
-
-
 .footer {
     margin-top: 5em;
 }
-
 
 .circle {
     background-color:#ec1cff;
@@ -80,34 +71,25 @@ body {
     border: none;
 }
 
-.img-fluid-index {
-
-}
-
-
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+ .featurette-divider {
+    margin: 5rem 0; 
   }
   
-  /* Thin out the marketing headings */
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
-    /* rtl:remove */
     letter-spacing: -.05rem;
   }
   
   .border {
     border: 1px solid black!important;
-}
+ }
 
-
-li {
+  li {
     list-style-type: none;
-    
   }
 
   .img-shadow{
@@ -115,11 +97,6 @@ li {
   }
   .img-shadow-white {
     box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.801) !important;
-  }
-
-  .carousel-item {
-    
-    
   }
 
   a {
