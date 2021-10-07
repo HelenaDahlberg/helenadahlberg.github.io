@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Helena Dahlberg - Projects</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h1 class="display-6">Helena Dahlberg</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="internships.html">Internships</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="creativemess.html">Creative Mess</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button onclick="myFunction()" class="btn btn-outline-secondary" type="button">Switch
+                                Mode</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!--Wrapper-->
+        <div class="col-lg-8 ms-auto me-auto">
+            <div class="col-lg-12 ms-auto me-auto mt-4">
+                <div id="carouselControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-3">
+                        <div class="carousel-item active">
+                            <img src="images/designisalso.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/mutualrespect.png" class="d-block w-100" alt="...">
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+        <div class="row align-items-md-stretch mt-4">
+            <div class="col-lg-10 ms-auto me-auto circle">
+                <h1 class="display-6 fw-bold text-lg-center circle-text">My projects</h1>
+            </div>
+        </div>-->
+
+            <div class="row align-items-md-stretch mt-4">
+
+
+                <div class="h-100 p-5 border rounded-3">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="h2-pink">:: 1 ::</h2>
+                            <h2> Developing this.site</h2>
+                            <p class="lead">HTML, CSS & JavaScript. I've used Bootstrap to wrap this site, powerful &
+                                amazing tool!</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <!--------------------------------------------------------------------------------------------------------------------------->
+                            <input onclick="change()" type="button" value="More" id="myButton1" class="btn btn-dark p-4 mx-auto" data-bs-toggle="collapse"
+                            href="#collapseProject-1" aria-expanded="false" aria-controls="collapseProject-1"></input>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseProject-1">
+                        <div class="row align-items-md-stretch">
+                            <div class="col-lg-6 card card-body">
+                                <ul>
+                                    <li>
+                                        <p class="lead"><strong>Summary:</strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Goals & results: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Challenges: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Reflection: </strong></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 ms-5 me-0  card card-body">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row align-items-md-stretch mt-4">
+
+
+                <div class="h-100 p-5 border rounded-3">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="h2-pink">:: 2 ::</h2>
+                            <h2>Prototypes for UX production</h2>
+                            <p class="lead">Case: Create a prototype in Figma according to a case or choice.</p>
+                        </div>
+                        <div class="col-lg-2">
+                             <!--------------------------------------------------------------------------------------------------------------------------->
+                             <input onclick="change()" type="button" value="More" id="myButton2" class="btn btn-dark p-4 mx-auto" data-bs-toggle="collapse"
+                             href="#collapseProject-2" aria-expanded="false" aria-controls="collapseProject-2"></input>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseProject-2">
+                        <div class="row align-items-md-stretch">
+                            <div class="col-lg-6 card card-body">
+                                <ul>
+                                    <li>
+                                        <p class="lead"><strong>Summary:</strong>
+                                            I made my own version of 1177 where I focused on being able to more easily
+                                            find care units, quick access to messages and a smoother way to review their
+                                            medical records, prescriptions and booked appointments.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Goals & results: </strong>The goal was to gather the
+                                            most important (based on my own needs, no research has been done on other
+                                            users) to get a more structured use of care services. If I need to find a
+                                            chiropractor and book an appointment, I want to find contact information in
+                                            the app and then be able to remind myself of that time in the same place.
+                                            Appointments with the family doctor, dentist, etc. must also be gathered
+                                            there so that I as a user do not have to think about whether I have
+                                            forgotten to note any time in my regular calendar.
+
+                                            The result was a combination of 1177 and Alltid Öppet, with a simplified way
+                                            to review my recipes.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Challenges: </strong>One challenge was not to get caught
+                                            up in the choice of design look (I love designing visual elements), the
+                                            purpose here was to teach me the process and functions of Figma.
+                                            It was also a challenge to predict how many frames and interactions an idea
+                                            would actually result in, it often becomes more than you think.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Reflection: </strong>I love to prototype, it's creative
+                                            and creates challenge.</p>
+                                    </li>
+                                    <li><button class="btn btn-outline-light" type="button"
+                                            href="https://www.figma.com/proto/UJyLTdztwDIFTmat1bzcmP/Vårdportalen?node-id=3%3A2&starting-point-node-id=3%3A2">Explore
+                                            prototype >></button></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 ms-5 me-0  card card-body">
+                                <img src="images/vardportalen.png" class="img-fluid" alt="Prototype in Figma">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch mt-1 gy-5 g-lg-3">
+                <div class="col">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Prototype: </h2>
+                        <h2 class="h2-pink">Vårdportalen</h2>
+                        <p>Prototyping for UX production was the name of the course - my first interactive prototype in
+                            Figma - redesigning 1177 to "Vårdportalen" :) This is an external link.</p>
+                        <button class="btn btn-outline-light" type="button"
+                            href="https://www.figma.com/proto/UJyLTdztwDIFTmat1bzcmP/Vårdportalen?node-id=3%3A2&starting-point-node-id=3%3A2">Explore
+                            >></button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Prototype: </h2>
+                        <h2 class="h2-pink">Portfolio in Figma</h2>
+                        <p>See my portfolio, designed as a prototype in Figma (external link).</p>
+                        <button class="btn btn-outline-light" type="button"
+                            href="https://www.figma.com/proto/Io9SOB2yPdeIcCDpBiifGC/Portfolio?node-id=169%3A429&scaling=scale-down&page-id=0%3A1&starting-point-node-id=169%3A429&show-proto-sidebar=1">Explore
+                            >></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-md-stretch mt-5">
+
+
+                <div class="h-100 p-5 border rounded-3">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="h2-pink">:: 3 ::</h2>
+                            <h2>Digital Compassion</h2>
+                            <p class="lead">With amazing Per Axbom. Creating a UX Design Manifesto. The Including Panda. BJ Fogg's Inverted
+                                Behavior Model.</p>
+                        </div>
+                        <div class="col-lg-2">
+                             <!--------------------------------------------------------------------------------------------------------------------------->
+                             <input onclick="change()" type="button" value="More" id="myButton3" class="btn btn-dark p-4 mx-auto" data-bs-toggle="collapse"
+                             href="#collapseProject-3" aria-expanded="false" aria-controls="collapseProject-3"></input>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseProject-3">
+                        <div class="row align-items-md-stretch">
+                            <div class="col-lg-6 card card-body">
+                                <ul>
+                                    <li>
+                                        <p class="lead"><strong>Summary: </strong>Design ethically - as a designer you
+                                            have a huge responsibility against the users you are designing for - and
+                                            also those you exclude.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Goals & results: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Challenges: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Reflection: </strong></p>
+                                    </li>
+
+                                </ul>
+                                <img src="images/etisktmanifest.png" class="img-fluid"
+                                    alt="Ethical UX Design Manifesto">
+                            </div>
+                            <div class="col-lg-4 ms-5 me-0  card card-body">
+
+                                <img src="images/manskligskada.png" class="img-fluid" alt="Human Injure">
+                                <img src="images/includingpanda.png" class="img-fluid" alt="Including Panda">
+                                <img src="images/bjfogg.png" class="img-fluid" alt="BJ Fogg's Inverted Behavior Model">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch mt-4">
+
+
+                <div class="h-100 p-5 border rounded-3">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="h2-pink">:: 4 ::</h2>
+                            <h2>SVT Play - Evaluation of usability</h2>
+                            <p class="lead">UX Process 3. Case: Evaluate the service's usability & user experience.</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <!--------------------------------------------------------------------------------------------------------------------------->
+                            <input onclick="change()" type="button" value="More" id="myButton4" class="btn btn-dark p-4 mx-auto" data-bs-toggle="collapse"
+                            href="#collapseProject-4" aria-expanded="false"
+                            aria-controls="collapseProject-4"></input>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseProject-4">
+                        <div class="row align-items-md-stretch">
+                            <div class="col-lg-6 card card-body">
+                                <ul>
+                                    <li>
+                                        <p class="lead"><strong>Summary: </strong>The aim was to compile in groups a
+                                            written report of the evaluation with a description of each method
+                                            implemented and justification for how and why they were performed. The
+                                            report contained insights and conclusions as well as justification for how
+                                            reliable each one was.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Goals & results: </strong>Conclusion and recommendation
+                                            after finally working with triangulation of methods and its insights was to
+                                            continue the evaluation further with preference tests, card sorting,
+                                            iterating the first usability test and to take the help of Google Analytics
+                                            to be able to confirm patterns we found. This is to be able to develop a new
+                                            version of the design and then evaluate it. The severity may be small, but
+                                            our suggestion and conclusion was that SVTPlay can reduce dissatisfaction by
+                                            working out disruptive elements.</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Problem formulation: </strong>"The user does not know
+                                            what the different menu choices do and what the associated icons mean."</p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Reflections & lessons learned: </strong>The main lesson
+                                            came from the usability test - what insights would we have gained if we had
+                                            built it in a different way? Small details can play a bigger role!</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 ms-5 me-0  card card-body">
+                                <p class="lead"><strong>Methods: </strong></p>
+                                <ul>
+                                    <li>
+                                        <p>Generative evaluation: Heuristic evaluation</p>
+                                    </li>
+                                    <li>
+                                        <p>Competitive benchmarking</p>
+                                    </li>
+                                    <li>
+                                        <p>Jobs to be done - mapping of needs</p>
+                                    </li>
+                                    <li>
+                                        <p>Screening survey</p>
+                                    </li>
+                                    <li>
+                                        <p>Attitude survey</p>
+                                    </li>
+                                    <li>
+                                        <p>Hypothesis</p>
+                                    </li>
+                                    <li>
+                                        <p>Cognitive walkthrough</p>
+                                    </li>
+                                    <li>
+                                        <p>Usability tests - interview, tasks & SUS</p>
+                                    </li>
+                                    <li>
+                                        <p>Evaluative evaluation: Preference test</p>
+                                    </li>
+                                </ul>
+
+                                <img src="images/postit.png" class="img-fluid" alt="Postit wall">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch mt-4">
+
+                <div class="h-100 p-5 border rounded-3">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h2 class="h2-pink">:: 5 ::</h2>
+                            <h2>Developing a Wordpress Theme</h2>
+                            <p class="lead">HTML, CSS, JavaScript & PHP.</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <!--------------------------------------------------------------------------------------------------------------------------->
+                           <input onclick="change()" type="button" value="More" id="myButton5" class="btn btn-dark p-4 mx-auto" data-bs-toggle="collapse"
+                                href="#collapseProject-5" aria-expanded="false" aria-controls="collapseProject-5"></input>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseProject-5">
+                        <div class="row align-items-md-stretch">
+                            <div class="col-lg-6 card card-body">
+                                <ul>
+                                    <li>
+                                        <p class="lead"><strong>Summary: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Goals & results: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Challenges: </strong></p>
+                                    </li>
+                                    <li>
+                                        <p class="lead"><strong>Reflection: </strong></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 ms-5 me-0  card card-body">
+                                <img src="images/desktop.jpg" class="img-fluid" alt="Wordpress Theme">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide col-lg-8 mt-5 ms-auto me-auto" data-bs-ride="carousel">
+                <h2 class="h2-pink mb-3">:: Other projects ::</h2>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/bonava.png" class="d-block w-100" alt="Bonava Logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/koket.png" class="d-block w-100" alt="Kökets favoriter Logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/apoteket.png" class="d-block w-100" alt="Apoteket Logo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/climateview.png" class="d-block w-100" alt="ClimateView Logo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+        </div>
+
+        </div>
+       
+
+
+
+    </main>
+
+
+    <footer class="container footer">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2021 Helena Dahlberg</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
