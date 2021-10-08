@@ -108,13 +108,13 @@ body {
 
   .parallax {
     background-image: url('../images/stonewall.jpg');
-    min-height: 500px;
+    min-height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
 .head-text {
   color: white;
 }
