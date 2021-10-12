@@ -29,7 +29,7 @@ body {
     margin-top: -1.6em;
     margin-right: -2em;
     padding-left: 3em;
-    padding-right: 3em;
+    /*padding-right: 3em;*/
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -96,17 +96,6 @@ body {
   position: absolute;
   margin-left: -10%;
   margin-top: -10%;
-}
-
-.circle5 {
-  border: 2px dotted rgba(213, 17, 193, 0.76);
-  border-radius: 50%;
-  width: 22vw;
-  height: 22vw;
-  position: absolute;
-  margin-top: -10%;
-  margin-left: 90%;
-  z-index: -1em;
 }
 
 .circle-text{
