@@ -1,20 +1,19 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     padding: 25px;
     background-color: rgb(24, 24, 24);
     color: white;
     font-size: 1em;
-    overflow-x: hidden;
   }
   
   .dark-mode {
     background-color: white;
     color: rgb(24, 24, 24);
-    
   } 
-
-  .btn-dark {
-    background-color: #ec1cff;
-  }
 
   .h2-pink {
     color: #ec1cff;
@@ -39,11 +38,6 @@ body {
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
   color: #ec1cff;
   font-weight: bold;
-}
-
-.btn-outline-secondary {
-  color: #ffffffc0;
-  border-color: #6c757d;
 }
 
 .start-image {
@@ -98,33 +92,30 @@ body {
   margin-top: -10%;
 }
 
-.circle-text{
-    padding-top: 3em;
-}
-
 .card {
     background-color: transparent;
     border: none;
+}
+
+.btn-dark {
+  background-color: #ec1cff;
+}
+
+.btn-outline-secondary {
+  color: #ffffffc0;
+  border-color: #6c757d;
+}
+
+.btn-outline-light {
+  padding: 1em;
+  margin-top: 1em;
 }
 
 /* Featurettes
 ------------------------- */
 .btn a {
   color: white;
-  font-weight: bold;
   text-decoration: none;
-}
-
-.btn-primary {
-  background-color: #ec1cff;
-  border-color: #ec1cff;
-  margin-top: 5em;
-  width: 50%;
-}
-
-.btn-primary:hover {
-  background-color: #3a3a3a;
-  border-color: #1b1b1b;
 }
 
  .featurette-divider {
@@ -174,8 +165,6 @@ body {
 
 .left-area {
   padding-top: 5em;
- 
-  
 }
 
 .right-area {
