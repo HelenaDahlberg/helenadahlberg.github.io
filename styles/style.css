@@ -18,6 +18,10 @@ body {
   .h2-pink {
     color: #ec1cff;
   }
+
+.nav-name {
+  font-family: 'Nixie One', cursive;
+}
   .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     border-radius: 3px;
     border-bottom: 3px solid #ec1cff;
