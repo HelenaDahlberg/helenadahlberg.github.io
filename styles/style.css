@@ -44,6 +44,7 @@ body {
     border-radius: 3px;
     border-bottom: 1px solid #ec1cff;
 }
+
 .navbar {
     
     margin-left: -2em;
@@ -55,13 +56,18 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
 }
+
 .navbar {
   padding-bottom: 0px;
 }
+
+
+
 .nav-item {
   margin-right: 2em;
   font-size: large;
 }
+
 .navbar-toggler {
   margin-right: 0.8em;
 }
@@ -84,6 +90,11 @@ body {
 
 .footer {
     margin-top: 5em;
+}
+
+.footer-text {
+  padding-top: 1.2em;
+  font-size:.5em;
 }
 
 .circle {
@@ -132,7 +143,7 @@ body {
     border: none;
 }
 
-.card-body, ul {
+.card-body {
   margin-left: -2em;
 }
 
@@ -164,6 +175,11 @@ body {
   font-weight: bold;
 }
 
+a {
+  color: #B713A7;
+  
+}
+
 /* Featurettes
 ------------------------- */
 .btn a {
@@ -183,7 +199,7 @@ body {
   }
  
   .amf-center {
-    margin-left:33%;
+    margin-left: 33%;
   }
   
   .border {
@@ -194,19 +210,14 @@ body {
     list-style-type: none;
   }
 
-  .img-shadow{
+  .img-shadow {
     box-shadow: 0px 0px 10px 10px rgba(247, 112, 252, 0.692) !important;
   }
   .img-shadow-white {
-    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.801) !important;
+    box-shadow: 1px 1px 1px 1px rgba(105, 105, 105, 0.384) !important;
   }
   .img-shadow-black {
     box-shadow: 1px 1px 1px 1px rgba(104, 104, 104, 0.527) !important;
-  }
-
-  a {
-    color: #B713A7;
-    font-weight: bold;
   }
 
   .parallax {
