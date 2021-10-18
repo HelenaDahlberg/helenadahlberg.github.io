@@ -1,6 +1,7 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  font-size: larger;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
   } 
 
   .h2-pink {
+    color: #B713A7;
+  }
+
+  .h2-pink-black {
     color: #ec1cff;
   }
 
@@ -26,7 +31,9 @@ body {
 .nav-name {
   font-family: 'Yantramanav', sans-serif;
   font-size: 1.5em;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
+  margin-left: 1em;
+  
 }
 
 .head-text {
@@ -42,18 +49,26 @@ body {
     margin-left: -2em;
     margin-top: -1.6em;
     margin-right: -2em;
-    padding-left: 3em;
-    /*padding-right: 3em;*/
+   
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
 }
-
+.navbar {
+  padding-bottom: 0px;
+}
 .nav-item {
-  margin-right: 1em;
+  margin-right: 2em;
+  font-size: large;
+}
+.navbar-toggler {
+  margin-right: 0.8em;
 }
 
+#navbarTogglerDemo01 {
+  margin-left: 2em;
+}
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
   color: #ec1cff;
@@ -117,8 +132,13 @@ body {
     border: none;
 }
 
+.card-body, ul {
+  margin-left: -2em;
+}
+
+
 .btn-dark {
-  background-color: #ec1cff;
+  background-color: #B713A7;
   border-style: none;
 }
 
@@ -129,11 +149,19 @@ body {
 .btn-outline-secondary {
   color: #ffffffc0;
   border-color: #6c757d;
+  margin-top: 0.3em;
+  font-size: medium;
 }
 
 .btn-outline-light {
   padding: 1em;
   margin-top: 1em;
+  font-weight: bold;
+  
+}
+
+.btn-dark {
+  font-weight: bold;
 }
 
 /* Featurettes
@@ -141,6 +169,7 @@ body {
 .btn a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
  .featurette-divider {
@@ -176,7 +205,8 @@ body {
   }
 
   a {
-    color: #ec1cff;
+    color: #B713A7;
+    font-weight: bold;
   }
 
   .parallax {
