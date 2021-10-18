@@ -5,26 +5,37 @@ html, body {
 
 body {
     padding: 25px;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    font-size: 1em;
+    background-color: white;
+    color: rgb(24, 24, 24);
+    
   }
   
   .dark-mode {
-    background-color: white;
-    color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24);
+    color: white;
   } 
 
   .h2-pink {
     color: #ec1cff;
   }
 
+  .banner-text {
+    color: white;
+  }
+
 .nav-name {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.5em;
+  margin-top: 0.5em;
 }
+
+.head-text {
+  font-family: 'Yantramanav', sans-serif;
+}
+
   .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     border-radius: 3px;
-    border-bottom: 3px solid #ec1cff;
+    border-bottom: 1px solid #ec1cff;
 }
 .navbar {
     
@@ -38,6 +49,11 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
 }
+
+.nav-item {
+  margin-right: 1em;
+}
+
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
   color: #ec1cff;
@@ -83,7 +99,7 @@ body {
   width: 15vw;
   height: 15vw;
   position: absolute;
-  z-index: -1em;
+  margin-top: 1%;
 }
 
 .circle4 {
@@ -103,6 +119,11 @@ body {
 
 .btn-dark {
   background-color: #ec1cff;
+  border-style: none;
+}
+
+.button .btn-dark > a:hover, .btn-dark > a:focus {
+  background-color: rgba(247, 112, 252, 0.692);
 }
 
 .btn-outline-secondary {
@@ -151,7 +172,7 @@ body {
     box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.801) !important;
   }
   .img-shadow-black {
-    box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.527) !important;
+    box-shadow: 1px 1px 1px 1px rgba(104, 104, 104, 0.527) !important;
   }
 
   a {
