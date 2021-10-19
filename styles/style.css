@@ -168,11 +168,14 @@ body {
   padding: 1em;
   margin-top: 1em;
   font-weight: bold;
+  background-color: #B713A7;
+  border: none;
   
 }
 
 .btn-dark {
   font-weight: bold;
+ 
 }
 
 a {
@@ -235,8 +238,10 @@ a {
 
 .right-area {
   background-color: white;
- 
 }
 
-
+.project-image {
+  max-width: 50%;
+  margin: auto;
+}
 
