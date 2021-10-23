@@ -211,6 +211,7 @@ a {
 
   li {
     list-style-type: none;
+    
   }
 
   .img-shadow {
@@ -240,8 +241,9 @@ a {
   background-color: white;
 }
 
-.project-image {
-  max-width: 50%;
-  margin: auto;
-}
 
+.embed-responsive .embed-responsive-item {
+  width: 100%; 
+  height: 100%;
+  
+}
