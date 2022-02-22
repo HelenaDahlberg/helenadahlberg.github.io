@@ -210,25 +210,6 @@ a {
     
   }
 
-
-  .parallax {
-    background-image: url('../images/sunset.jpg');
-    min-height: 900px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax-2 {
-    background-image: url('../images/sunset.jpg');
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
 .left-area {
   padding-top: 5em;
 }
@@ -260,12 +241,11 @@ a {
 }
 
 .index-image {
-  margin-left: -1em;
-  padding-right: 0px;
+ 
   
   
 }
-.head-text {
+
 
 
 
