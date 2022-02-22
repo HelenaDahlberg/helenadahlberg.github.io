@@ -147,12 +147,12 @@ body {
 
 
 .btn-dark {
-  background-color: #46523d;
+  background-color: #758867;
   border-style: none;
 }
 
 .button .btn-dark > a:hover, .btn-dark > a:focus {
-  background-color:#46523d;
+  background-color:#758867;
 }
 
 .btn-outline-secondary {
